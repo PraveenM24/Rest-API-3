@@ -1,6 +1,6 @@
 const express = require('express') //Include Express Framework
 const mongoose = require('mongoose') //Include Mongoose
-const url = 'mongodb+srv://tpgit:tpgit2020@bookbank.w18lj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority' //Database URL
+const url = 'mongodb+srv://tpgit:tpgit2020@bookbank.w18lj.mongodb.net/bookbank?retryWrites=true&w=majority' //Database URL
 const PORT = process.env.PORT || 7000;
 
 const app = express() //Start Express Framework
